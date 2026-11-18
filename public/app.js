@@ -373,9 +373,9 @@ function storyHtml(run) {
   const summary = r
     ? `<div class="stats"><div class="stat"><b>${r.total}</b><span>sentences</span></div>
        <div class="stat"><b class="ok">${r.supported}</b><span>supported by their chunks</span></div>
-       <div class="stat"><b style="color:var(--warn)">${r.partly}</b><span>partly supported</span></div>
+       <div class="stat"><b style="color:var(--warn)">${r.partly + (r.names || 0)}</b><span>partly supported, or a name/number not in its chunks</span></div>
        <div class="stat"><b style="color:var(--bad)">${r.unsupported + r.uncited}</b><span>unsupported or uncited</span></div></div>
-       <p class="muted small">Each sentence was checked against the full text of the chunks it cites. Highlighted sentences contain something those chunks don't say: likely the model's own knowledge.</p>`
+       <p class="muted small">Two checks per sentence: a model reads the full text of the chunks it cites, and a word check makes sure every name and number in the sentence appears in those chunks. Highlighted sentences contain something the cited chunks don't say: either it came from another chunk (a citation slip) or from the model's own knowledge.</p>`
     : `<p class="muted small">Checking every sentence…</p>`;
   return `<section class="sheet">${summary}</section>
     <article class="sheet story"><h2>${esc(run.story.title)}</h2>
@@ -387,7 +387,7 @@ function storyHtml(run) {
               const v = rev.get(s.n);
               const flagged = v && !["supported", "unchecked"].includes(v.verdict);
               return `<span class="s ${flagged ? `flag ${v.verdict}` : ""}" ${flagged ? `title="${esc(v.verdict)}: ${esc(v.not_in_snippets)}"` : ""}>${esc(s.text)}${cites(s.chunk_ids)}${
-                flagged ? `<span class="note">⚑ ${esc(v.verdict)}${v.not_in_snippets ? `: “${esc(v.not_in_snippets)}” isn't in the cited chunks` : ""}</span>` : ""
+                flagged ? `<span class="note">⚑ ${v.verdict === "names" ? `not in the cited chunks: ${esc(v.missing_words.join(", "))}` : `${esc(v.verdict)}${v.not_in_snippets ? `: “${esc(v.not_in_snippets)}” isn't in the cited chunks` : ""}${v.missing_words?.length ? ` (words: ${esc(v.missing_words.join(", "))})` : ""}`}</span>` : ""
               }</span>`;
             })
             .join(" ")}</p>`

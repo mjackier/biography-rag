@@ -217,7 +217,9 @@ app.get("/api/runs/:id/story.md", async (req, res) => {
   const chunks = await store.getChunks(ids);
   const flag = (s) => {
     const r = review.get(s.n);
-    return r && r.verdict !== "supported" ? ` **[flag: ${r.verdict}${r.not_in_snippets ? ` — "${r.not_in_snippets}"` : ""}]**` : "";
+    if (!r || r.verdict === "supported") return "";
+    const words = r.missing_words?.length ? ` — not in cited chunks: ${r.missing_words.join(", ")}` : "";
+    return ` **[flag: ${r.verdict}${r.not_in_snippets ? ` — "${r.not_in_snippets}"` : ""}${words}]**`;
   };
   const md = [
     `# ${run.story.title}`,
