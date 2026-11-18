@@ -1,0 +1,1749 @@
+{
+ "id": 5,
+ "collection_id": 1,
+ "person": "Benjamin Franklin",
+ "kind": "full",
+ "status": "done",
+ "stage": "Done",
+ "answers": [
+  {
+   "n": 1,
+   "found": true,
+   "answer": "Benjamin Franklin was born on a Sunday, in a house on Milk Street, opposite the Old South Church in Boston, and was baptized the same day by the pastor, Dr. Willard. His birth is recorded in the town register and in the records of the Old South Church. He was born January 6th, 1706, Old Style, which is the same as January 17th, New Style, according to the records of the Old South Church in Boston and the old public Register of Births in Boston.",
+   "question": "Where and when was Benjamin Franklin born?",
+   "retrieved": [
+    3812,
+    3778,
+    3511,
+    3811,
+    3800,
+    3512,
+    2184,
+    4523
+   ],
+   "sentences": [
+    {
+     "text": "Benjamin Franklin was born on a Sunday, in a house on Milk Street, opposite the Old South Church in Boston, and was baptized the same day by the pastor, Dr. Willard. His birth is recorded in the town register and in the records of the Old South Church.",
+     "chunk_ids": [
+      3812
+     ]
+    },
+    {
+     "text": "He was born January 6th, 1706, Old Style, which is the same as January 17th, New Style, according to the records of the Old South Church in Boston and the old public Register of Births in Boston.",
+     "chunk_ids": [
+      2184
+     ]
+    }
+   ]
+  },
+  {
+   "n": 2,
+   "found": true,
+   "answer": "Benjamin Franklin's father came from Ecton, Northamptonshire, England, where the family had lived for at least three hundred years, and several of his ancestors had been blacksmiths, though his father Josiah learned the trade of a dyer instead of being a blacksmith like the others in the family line. Franklin's maternal grandfather was Peter Folger, who had an interest in literature and taught Indians to read and write; Franklin may have inherited his fondness for books from him.",
+   "question": "Where were Benjamin Franklin's parents from, and what did they do?",
+   "retrieved": [
+    3778,
+    3770,
+    3867,
+    5724,
+    3774,
+    5726,
+    3809,
+    3510
+   ],
+   "sentences": [
+    {
+     "text": "Benjamin Franklin's father came from Ecton, Northamptonshire, England, where the family had lived for at least three hundred years, and several of his ancestors had been blacksmiths, though his father Josiah learned the trade of a dyer instead of being a blacksmith like the others in the family line.",
+     "chunk_ids": [
+      5724,
+      3774
+     ]
+    },
+    {
+     "text": "Franklin's maternal grandfather was Peter Folger, who had an interest in literature and taught Indians to read and write; Franklin may have inherited his fondness for books from him.",
+     "chunk_ids": [
+      5726
+     ]
+    }
+   ]
+  },
+  {
+   "n": 3,
+   "found": true,
+   "answer": "Young Benjamin Franklin derived only a very insignificant part of his education from schools and was educated by his home, by Boston, by the events of his time, by his father's few books, and especially in his earliest years, by his uncle, who took great interest in him and was one of his first instructors. Benjamin often attended the meetings of benefit societies with his father, listened to the questions, and waited breathless for the replies, taking note of everything and bringing into play in after-life the unconscious gatherings of his childhood. During his childhood in Boston, there were frequent movements of troops, arrivals of armed fleets, and erection of defensive works, which interested Benjamin as they did other boys.",
+   "question": "What was Benjamin Franklin's childhood like?",
+   "retrieved": [
+    3853,
+    3817,
+    4523,
+    5724,
+    4462,
+    3774,
+    3816,
+    4629
+   ],
+   "sentences": [
+    {
+     "text": "Young Benjamin Franklin derived only a very insignificant part of his education from schools and was educated by his home, by Boston, by the events of his time, by his father's few books, and especially in his earliest years, by his uncle, who took great interest in him and was one of his first instructors.",
+     "chunk_ids": [
+      3816,
+      3817
+     ]
+    },
+    {
+     "text": "Benjamin often attended the meetings of benefit societies with his father, listened to the questions, and waited breathless for the replies, taking note of everything and bringing into play in after-life the unconscious gatherings of his childhood.",
+     "chunk_ids": [
+      3853
+     ]
+    },
+    {
+     "text": "During his childhood in Boston, there were frequent movements of troops, arrivals of armed fleets, and erection of defensive works, which interested Benjamin as they did other boys.",
+     "chunk_ids": [
+      3817
+     ]
+    }
+   ]
+  },
+  {
+   "n": 4,
+   "found": true,
+   "answer": "Benjamin Franklin was the youngest son and the fifteenth child of his father, with his sisters Lydia and Jane being younger than him. At the time of Benjamin Franklin's death, there were living descendants of his brothers Samuel and James, and of his sisters Anne, Sarah, Lydia, and Jane. His brother James died at Newport in Rhode Island, and his brother Peter died at an advanced age in Philadelphia. His youngest sister was Jane, who married Edward Mecom. Three children were born to Josiah Franklin in Banbury: Elizabeth, Samuel, and Hannah.",
+   "question": "Who were Benjamin Franklin's siblings?",
+   "retrieved": [
+    1998,
+    3512,
+    3105,
+    5725,
+    3511,
+    3528,
+    3816,
+    3798
+   ],
+   "sentences": [
+    {
+     "text": "Benjamin Franklin was the youngest son and the fifteenth child of his father, with his sisters Lydia and Jane being younger than him.",
+     "chunk_ids": [
+      3512,
+      3511
+     ]
+    },
+    {
+     "text": "At the time of Benjamin Franklin's death, there were living descendants of his brothers Samuel and James, and of his sisters Anne, Sarah, Lydia, and Jane.",
+     "chunk_ids": [
+      3528
+     ]
+    },
+    {
+     "text": "His brother James died at Newport in Rhode Island, and his brother Peter died at an advanced age in Philadelphia.",
+     "chunk_ids": [
+      3105
+     ]
+    },
+    {
+     "text": "His youngest sister was Jane, who married Edward Mecom.",
+     "chunk_ids": [
+      3105
+     ]
+    },
+    {
+     "text": "Three children were born to Josiah Franklin in Banbury: Elizabeth, Samuel, and Hannah.",
+     "chunk_ids": [
+      3798
+     ]
+    }
+   ]
+  },
+  {
+   "n": 5,
+   "found": true,
+   "answer": "Benjamin Franklin attended the Boston Grammar-School when he was eight years old, but left before a year had passed due to the cost, then went to another school run by George Brownell for about a year, after which his formal schooling ended forever. During his two years of schooling, Franklin learned to read and write, but was not very good at arithmetic. He derived only a very insignificant part of his education from schools and was largely educated by his home, his father's books, and his uncle. Franklin was self-taught in many areas, including French, and never attended college except to receive honorary degrees for public services.",
+   "question": "What schooling or training did Benjamin Franklin have?",
+   "retrieved": [
+    5722,
+    3817,
+    5795,
+    4629,
+    3829,
+    3774,
+    3816,
+    5794
+   ],
+   "sentences": [
+    {
+     "text": "Benjamin Franklin attended the Boston Grammar-School when he was eight years old, but left before a year had passed due to the cost, then went to another school run by George Brownell for about a year, after which his formal schooling ended forever.",
+     "chunk_ids": [
+      5722,
+      3829
+     ]
+    },
+    {
+     "text": "During his two years of schooling, Franklin learned to read and write, but was not very good at arithmetic.",
+     "chunk_ids": [
+      5722,
+      3829
+     ]
+    },
+    {
+     "text": "He derived only a very insignificant part of his education from schools and was largely educated by his home, his father's books, and his uncle.",
+     "chunk_ids": [
+      3817,
+      3816
+     ]
+    },
+    {
+     "text": "Franklin was self-taught in many areas, including French, and never attended college except to receive honorary degrees for public services.",
+     "chunk_ids": [
+      5794,
+      5795
+     ]
+    }
+   ]
+  },
+  {
+   "n": 6,
+   "found": true,
+   "answer": "Benjamin Franklin was apprenticed to his brother James Franklin, a printer, to learn his art, and served as an apprentice in the printing business. He signed his indentures when he was twelve years of age and applied himself to learn the business, soon becoming useful to his brother.",
+   "question": "What was Benjamin Franklin's first job?",
+   "retrieved": [
+    4425,
+    3868,
+    3774,
+    4372,
+    3867,
+    4726,
+    4261,
+    4305
+   ],
+   "sentences": [
+    {
+     "text": "Benjamin Franklin was apprenticed to his brother James Franklin, a printer, to learn his art, and served as an apprentice in the printing business.",
+     "chunk_ids": [
+      3868,
+      3867
+     ]
+    },
+    {
+     "text": "He signed his indentures when he was twelve years of age and applied himself to learn the business, soon becoming useful to his brother.",
+     "chunk_ids": [
+      3867
+     ]
+    }
+   ]
+  },
+  {
+   "n": 7,
+   "found": true,
+   "answer": "One adventurous story from Benjamin Franklin's life is when, as a young man, he decided to run away from Boston to avoid the dangers he perceived in establishing himself there as a printer, and after a three-day passage, arrived in New York with very little money and no acquaintances or letters of recommendation, prepared to start anew in a strange city. Another adventurous episode occurred much later in his life, when he left Philadelphia quietly with his two grandsons to board the 'Reprisal,' a swift war-vessel, to travel to France as an envoy; during the voyage, the ship was chased several times by enemy cruisers, and Captain Wickes had to make all sail to escape, while Franklin endured a rough and cramped journey through November gales.",
+   "question": "An adventurous story from Benjamin Franklin's life.",
+   "retrieved": [
+    4013,
+    6250,
+    606,
+    4018,
+    4726,
+    4523,
+    4341,
+    3234
+   ],
+   "sentences": [
+    {
+     "text": "One adventurous story from Benjamin Franklin's life is when, as a young man, he decided to run away from Boston to avoid the dangers he perceived in establishing himself there as a printer, and after a three-day passage, arrived in New York with very little money and no acquaintances or letters of recommendation, prepared to start anew in a strange city.",
+     "chunk_ids": [
+      4013,
+      4018
+     ]
+    },
+    {
+     "text": "Another adventurous episode occurred much later in his life, when he left Philadelphia quietly with his two grandsons to board the 'Reprisal,' a swift war-vessel, to travel to France as an envoy; during the voyage, the ship was chased several times by enemy cruisers, and Captain Wickes had to make all sail to escape, while Franklin endured a rough and cramped journey through November gales.",
+     "chunk_ids": [
+      6250,
+      606
+     ]
+    }
+   ]
+  },
+  {
+   "n": 8,
+   "found": true,
+   "answer": "Benjamin Franklin experienced a dangerous moment when the ship he was on had a narrow escape from destruction near Falmouth harbor at midnight, as it was running swiftly toward land to avoid enemy cruisers, and only quick action by a captain saved them from shipwreck on rocks where a lighthouse stood. Franklin described the light from the lighthouse as seeming to him 'as large as a cart-wheel,' and the event impressed him strongly, making him resolve to encourage the building of lighthouses in America if he should live to return.",
+   "question": "A scary or dangerous moment Benjamin Franklin faced.",
+   "retrieved": [
+    4899,
+    4073,
+    6250,
+    3820,
+    2735,
+    606,
+    5135,
+    4898
+   ],
+   "sentences": [
+    {
+     "text": "Benjamin Franklin experienced a dangerous moment when the ship he was on had a narrow escape from destruction near Falmouth harbor at midnight, as it was running swiftly toward land to avoid enemy cruisers, and only quick action by a captain saved them from shipwreck on rocks where a lighthouse stood.",
+     "chunk_ids": [
+      4898,
+      4899,
+      2735
+     ]
+    },
+    {
+     "text": "Franklin described the light from the lighthouse as seeming to him 'as large as a cart-wheel,' and the event impressed him strongly, making him resolve to encourage the building of lighthouses in America if he should live to return.",
+     "chunk_ids": [
+      4899,
+      2735
+     ]
+    }
+   ]
+  },
+  {
+   "n": 9,
+   "found": true,
+   "answer": "Benjamin Franklin wrote a number of short, humorous pieces for the amusement of his friends, including 'The Craven Street Gazette,' which was a burlesque of newspapers and was written only for the entertainment of his family in Craven Street. He also wrote a story known as 'The Whistle,' which is often cited as an example of his humor. Another funny anecdote involves Franklin charging the railing outside one of his windows with electricity to deter idlers from stopping there, as recounted in an anecdote picked up by D'Israeli. Franklin was known for his broad jokes and humorous letters, some of which were later criticized for their tone but were part of his lively and witty correspondence.",
+   "question": "A funny anecdote about Benjamin Franklin.",
+   "retrieved": [
+    5417,
+    4018,
+    4726,
+    4616,
+    2123,
+    3811,
+    6183,
+    5908
+   ],
+   "sentences": [
+    {
+     "text": "Benjamin Franklin wrote a number of short, humorous pieces for the amusement of his friends, including 'The Craven Street Gazette,' which was a burlesque of newspapers and was written only for the entertainment of his family in Craven Street.",
+     "chunk_ids": [
+      5417
+     ]
+    },
+    {
+     "text": "He also wrote a story known as 'The Whistle,' which is often cited as an example of his humor.",
+     "chunk_ids": [
+      5417
+     ]
+    },
+    {
+     "text": "Another funny anecdote involves Franklin charging the railing outside one of his windows with electricity to deter idlers from stopping there, as recounted in an anecdote picked up by D'Israeli.",
+     "chunk_ids": [
+      4616
+     ]
+    },
+    {
+     "text": "Franklin was known for his broad jokes and humorous letters, some of which were later criticized for their tone but were part of his lively and witty correspondence.",
+     "chunk_ids": [
+      5908
+     ]
+    }
+   ]
+  },
+  {
+   "n": 10,
+   "found": true,
+   "answer": "Franklin candidly confessed to what he called an 'erratum,' which he described as perhaps the worst mistake of his life: after becoming very intimate with a woman who was dependent on him, he attempted to take liberties with her, was repulsed, and as a result lost the friendship of Ralph, who considered all obligations annulled and ended their relationship for nearly thirty years. Franklin had an illegitimate son, William Franklin, and if laws had been enforced, he would have received twenty-one lashes at the public whipping-post of Philadelphia for this.",
+   "question": "A time Benjamin Franklin failed or made a serious mistake.",
+   "retrieved": [
+    5265,
+    3811,
+    4130,
+    4254,
+    5175,
+    4283,
+    2124,
+    5900
+   ],
+   "sentences": [
+    {
+     "text": "Franklin candidly confessed to what he called an 'erratum,' which he described as perhaps the worst mistake of his life: after becoming very intimate with a woman who was dependent on him, he attempted to take liberties with her, was repulsed, and as a result lost the friendship of Ralph, who considered all obligations annulled and ended their relationship for nearly thirty years.",
+     "chunk_ids": [
+      4130
+     ]
+    },
+    {
+     "text": "Franklin had an illegitimate son, William Franklin, and if laws had been enforced, he would have received twenty-one lashes at the public whipping-post of Philadelphia for this.",
+     "chunk_ids": [
+      4254
+     ]
+    }
+   ]
+  },
+  {
+   "n": 11,
+   "found": true,
+   "answer": "Franklin's life was described as 'very stormy,' but contentment was a natural consequence of his qualities, which helped him maintain his vigor through these challenges. However, it is also noted that 'all these prizes tumbled in on Franklin,' suggesting that he did not struggle with violence or bitterness for success as some others did. His life was full of contests, and although his writings are full of a serene philosophic spirit, 'things are made to appear a little easier than they really were.' The sharpness of many of his struggles has been worn off by time, and in Philadelphia, where he faced 'the most bitter partisan struggles,' there were people who cherished a 'most relentless antipathy towards him.' During the last year of his life, Franklin 'lay upon his bed a prey to the most excruciating anguish.' As he approached the close of his life, 'the paroxysms of his disease became more and more violent, and the intervals of relief were of shorter duration.'",
+   "question": "The hardest thing Benjamin Franklin went through.",
+   "retrieved": [
+    5674,
+    49,
+    5900,
+    3816,
+    3820,
+    4528,
+    1866,
+    3774
+   ],
+   "sentences": [
+    {
+     "text": "Franklin's life was described as 'very stormy,' but contentment was a natural consequence of his qualities, which helped him maintain his vigor through these challenges. However, it is also noted that 'all these prizes tumbled in on Franklin,' suggesting that he did not struggle with violence or bitterness for success as some others did.",
+     "chunk_ids": [
+      5674
+     ]
+    },
+    {
+     "text": "His life was full of contests, and although his writings are full of a serene philosophic spirit, 'things are made to appear a little easier than they really were.' The sharpness of many of his struggles has been worn off by time, and in Philadelphia, where he faced 'the most bitter partisan struggles,' there were people who cherished a 'most relentless antipathy towards him.'",
+     "chunk_ids": [
+      5900
+     ]
+    },
+    {
+     "text": "During the last year of his life, Franklin 'lay upon his bed a prey to the most excruciating anguish.' As he approached the close of his life, 'the paroxysms of his disease became more and more violent, and the intervals of relief were of shorter duration.'",
+     "chunk_ids": [
+      1866
+     ]
+    }
+   ]
+  },
+  {
+   "n": 12,
+   "found": true,
+   "answer": "Benjamin Franklin married Deborah Read on September 1st, 1730. Franklin described Deborah as a 'good and faithful helpmate' who assisted him much by attending the shop, and said, 'we throve together, and have ever mutually endeavored to make each other happy.' He was described as a faithful, tender, and considerate husband, of whom his wife was proud and in whom his wife was happy.",
+   "question": "Who did Benjamin Franklin marry, and what was that relationship like?",
+   "retrieved": [
+    4316,
+    3512,
+    4313,
+    5870,
+    4314,
+    5919,
+    6123,
+    5881
+   ],
+   "sentences": [
+    {
+     "text": "Benjamin Franklin married Deborah Read on September 1st, 1730.",
+     "chunk_ids": [
+      4314
+     ]
+    },
+    {
+     "text": "Franklin described Deborah as a 'good and faithful helpmate' who assisted him much by attending the shop, and said, 'we throve together, and have ever mutually endeavored to make each other happy.'",
+     "chunk_ids": [
+      5881
+     ]
+    },
+    {
+     "text": "He was described as a faithful, tender, and considerate husband, of whom his wife was proud and in whom his wife was happy.",
+     "chunk_ids": [
+      4316
+     ]
+    }
+   ]
+  },
+  {
+   "n": 13,
+   "found": true,
+   "answer": "Benjamin Franklin had a son, Francis Folger Franklin, who died in childhood, and a daughter, Sarah, who married Richard Bache and left numerous descendants. His eldest son, William, died in London in 1813 and had an only son, William Temple, who died without issue. Franklin also had an illegitimate son, William, who was brought home as a child and cared for along with his other children, and William's illegitimate son, Temple Franklin, was the companion and secretary of his grandfather in England and France. There is mention of an illegitimate daughter who was apparently never brought home and is not referred to in Franklin's writings, except in occasional letters in which he sends her his love; she was married to John Foxcroft, according to a letter in the collection of the Pennsylvania Historical Society. The children of Benjamin and Deborah Franklin were Francis Folger and Sarah, and Sarah and Richard Bache had eight children: Benjamin Franklin, William, Sarah, Elizabeth Franklin, Louis, Deborah, Richard, and Sarah.",
+   "question": "What about Benjamin Franklin's children?",
+   "retrieved": [
+    3512,
+    3511,
+    3527,
+    1958,
+    3778,
+    3526,
+    5894,
+    3809
+   ],
+   "sentences": [
+    {
+     "text": "Benjamin Franklin had a son, Francis Folger Franklin, who died in childhood, and a daughter, Sarah, who married Richard Bache and left numerous descendants. His eldest son, William, died in London in 1813 and had an only son, William Temple, who died without issue. Franklin also had an illegitimate son, William, who was brought home as a child and cared for along with his other children, and William's illegitimate son, Temple Franklin, was the companion and secretary of his grandfather in England and France. There is mention of an illegitimate daughter who was apparently never brought home and is not referred to in Franklin's writings, except in occasional letters in which he sends her his love; she was married to John Foxcroft, according to a letter in the collection of the Pennsylvania Historical Society. The children of Benjamin and Deborah Franklin were Francis Folger and Sarah, and Sarah and Richard Bache had eight children: Benjamin Franklin, William, Sarah, Elizabeth Franklin, Louis, Deborah, Richard, and Sarah.",
+     "chunk_ids": [
+      3527,
+      1958,
+      5894
+     ]
+    }
+   ]
+  },
+  {
+   "n": 14,
+   "found": true,
+   "answer": "One of Benjamin Franklin's first instructors was his uncle, who took great interest in him and contributed to his early education, especially in his earliest years. Franklin had a close childhood friend named Collins, with whom he had been intimate from childhood and had read the same books together. Franklin and Collinson were correspondents and friends from 1730 to the death of Collinson in 1768. Franklin's intimates at one period were three young men of his own rank and condition, bound together by a common love of books. Franklin had life-long friendships with Fothergill, a physician who assisted in making his electrical discoveries known, and with Priestley, the discoverer of oxygen, who became a bosom friend. William Strahan, a publisher and member of Parliament, was also a valued friend who shared a background in printing with Franklin. Franklin's friends included men of science, clergymen, navigators, musicians, authors, and liberal members of parliament, such as Strahan, Burke, Hume, Lord Karnes, Sir John Pringle, Dr. Fothergill, and Dr. Cannon.",
+   "question": "Who were Benjamin Franklin's closest friends or mentors?",
+   "retrieved": [
+    3816,
+    4067,
+    4148,
+    4086,
+    2031,
+    6122,
+    5376,
+    4867
+   ],
+   "sentences": [
+    {
+     "text": "One of Benjamin Franklin's first instructors was his uncle, who took great interest in him and contributed to his early education, especially in his earliest years.",
+     "chunk_ids": [
+      3816
+     ]
+    },
+    {
+     "text": "Franklin had a close childhood friend named Collins, with whom he had been intimate from childhood and had read the same books together.",
+     "chunk_ids": [
+      4067
+     ]
+    },
+    {
+     "text": "Franklin and Collinson were correspondents and friends from 1730 to the death of Collinson in 1768.",
+     "chunk_ids": [
+      4148
+     ]
+    },
+    {
+     "text": "Franklin's intimates at one period were three young men of his own rank and condition, bound together by a common love of books.",
+     "chunk_ids": [
+      4086
+     ]
+    },
+    {
+     "text": "Franklin had life-long friendships with Fothergill, a physician who assisted in making his electrical discoveries known, and with Priestley, the discoverer of oxygen, who became a bosom friend.",
+     "chunk_ids": [
+      6122
+     ]
+    },
+    {
+     "text": "William Strahan, a publisher and member of Parliament, was also a valued friend who shared a background in printing with Franklin.",
+     "chunk_ids": [
+      6122,
+      5376
+     ]
+    },
+    {
+     "text": "Franklin's friends included men of science, clergymen, navigators, musicians, authors, and liberal members of parliament, such as Strahan, Burke, Hume, Lord Karnes, Sir John Pringle, Dr. Fothergill, and Dr. Cannon.",
+     "chunk_ids": [
+      5376
+     ]
+    }
+   ]
+  },
+  {
+   "n": 15,
+   "found": true,
+   "answer": "Arthur Lee is described as the enemy of Franklin, and the source of calumnies that disturbed Franklin's peace and lessened his influence, motivated by a desire for Franklin's place. Franklin's old opponents, the proprietary party, abused him as faithless to his province and the American cause, and a certain Samuel Smith spread negative rumors about him. There was hostility to Franklin in Congress, partly due to irritation from Adams and others regarding Franklin's reputation in France. Franklin had enemies during the long contests in Pennsylvania, particularly among the wealth and rank of the province, and there remains an hereditary antipathy to him in a certain circle in Philadelphia. Franklin experienced acrimony with Thomas and Richard Penn, and he seems to have disliked their father as well. The natural abhorrence which tory courtiers entertained for Franklin influenced the government's subsequent course toward him.",
+   "question": "Who were Benjamin Franklin's rivals or enemies?",
+   "retrieved": [
+    3287,
+    26,
+    6164,
+    6341,
+    5812,
+    1179,
+    4867,
+    5309
+   ],
+   "sentences": [
+    {
+     "text": "Arthur Lee is described as the enemy of Franklin, and the source of calumnies that disturbed Franklin's peace and lessened his influence, motivated by a desire for Franklin's place.",
+     "chunk_ids": [
+      26
+     ]
+    },
+    {
+     "text": "Franklin's old opponents, the proprietary party, abused him as faithless to his province and the American cause, and a certain Samuel Smith spread negative rumors about him.",
+     "chunk_ids": [
+      6164
+     ]
+    },
+    {
+     "text": "There was hostility to Franklin in Congress, partly due to irritation from Adams and others regarding Franklin's reputation in France.",
+     "chunk_ids": [
+      6341
+     ]
+    },
+    {
+     "text": "Franklin had enemies during the long contests in Pennsylvania, particularly among the wealth and rank of the province, and there remains an hereditary antipathy to him in a certain circle in Philadelphia.",
+     "chunk_ids": [
+      1179
+     ]
+    },
+    {
+     "text": "Franklin experienced acrimony with Thomas and Richard Penn, and he seems to have disliked their father as well.",
+     "chunk_ids": [
+      4867
+     ]
+    },
+    {
+     "text": "The natural abhorrence which tory courtiers entertained for Franklin influenced the government's subsequent course toward him.",
+     "chunk_ids": [
+      5309
+     ]
+    }
+   ]
+  },
+  {
+   "n": 16,
+   "found": true,
+   "answer": "Benjamin Franklin is widely known for his discoveries in electricity, particularly the popular image of his kite experiment, which is often cited as the main thing people remember about his contributions to science. His reputation was greatly enhanced by his discoveries in electricity, making his name well known in both America and Europe, and he became a household word from Boston to Charleston. Franklin's fame was further increased by the invention of the lightning-rod, which was considered most important in building up his reputation. He was also celebrated for his writings, such as Poor Richard's maxims, which were widely known and translated, and for his clear and modest scientific letters.",
+   "question": "What is Benjamin Franklin best known for?",
+   "retrieved": [
+    6013,
+    623,
+    6034,
+    4616,
+    629,
+    4726,
+    6344,
+    4601
+   ],
+   "sentences": [
+    {
+     "text": "Benjamin Franklin is widely known for his discoveries in electricity, particularly the popular image of his kite experiment, which is often cited as the main thing people remember about his contributions to science.",
+     "chunk_ids": [
+      6034
+     ]
+    },
+    {
+     "text": "His reputation was greatly enhanced by his discoveries in electricity, making his name well known in both America and Europe, and he became a household word from Boston to Charleston.",
+     "chunk_ids": [
+      4726
+     ]
+    },
+    {
+     "text": "Franklin's fame was further increased by the invention of the lightning-rod, which was considered most important in building up his reputation.",
+     "chunk_ids": [
+      6344
+     ]
+    },
+    {
+     "text": "He was also celebrated for his writings, such as Poor Richard's maxims, which were widely known and translated, and for his clear and modest scientific letters.",
+     "chunk_ids": [
+      623,
+      4601
+     ]
+    }
+   ]
+  },
+  {
+   "n": 17,
+   "found": true,
+   "answer": "Franklin invented the lightning-rod and explained its action in a paper sent to Collinson. He invented the invaluable contrivance by which a fire consumes its own smoke. Franklin made important discoveries respecting the causes of colds. He discovered the temperature of the Gulf stream and that Northeast storms begin in the Southwest. Franklin invented the 'Pennsylvania Fireplace,' which was an improvement on old methods of heating and ventilation.",
+   "question": "Something Benjamin Franklin made, invented or discovered.",
+   "retrieved": [
+    2027,
+    6025,
+    5404,
+    6021,
+    6024,
+    6014,
+    4553,
+    4557
+   ],
+   "sentences": [
+    {
+     "text": "Franklin invented the lightning-rod and explained its action in a paper sent to Collinson.",
+     "chunk_ids": [
+      6025
+     ]
+    },
+    {
+     "text": "He invented the invaluable contrivance by which a fire consumes its own smoke.",
+     "chunk_ids": [
+      2027
+     ]
+    },
+    {
+     "text": "Franklin made important discoveries respecting the causes of colds.",
+     "chunk_ids": [
+      2027
+     ]
+    },
+    {
+     "text": "He discovered the temperature of the Gulf stream and that Northeast storms begin in the Southwest.",
+     "chunk_ids": [
+      2027
+     ]
+    },
+    {
+     "text": "Franklin invented the 'Pennsylvania Fireplace,' which was an improvement on old methods of heating and ventilation.",
+     "chunk_ids": [
+      6021
+     ]
+    }
+   ]
+  },
+  {
+   "n": 18,
+   "found": true,
+   "answer": "Franklin lived in the little village of Passy, about two miles from the heart of Paris, for nine years, where his famous letters were dated and he resided in part of the Hotel de Valentinois as his home and for the business of the embassy free of rent. Franklin spent five years in England on his mission, settled with his own servant and living in the Craven Street house, and his grandson Temple lived there with him during his second mission to England and accompanied him to France. Franklin established himself at Passy, in a court of the Hotel de Valentinois, and continued to reside there during his whole stay in France, maintaining an independent establishment. Franklin visited Paris in September 1767, and the year preceding he had been in Germany, accompanied by Sir John Pringle. Franklin lived in London for a year and a half before embarking for Philadelphia. Franklin had a new house built during his absence, and after his return, his daughter Mrs. Sarah Bache was mistress of it; he arrived on the 5th of May, 1775, and was occupied in Philadelphia until October 26, 1776, when he sailed for France.",
+   "question": "Where did Benjamin Franklin travel or live?",
+   "retrieved": [
+    6260,
+    6123,
+    653,
+    1574,
+    2943,
+    6236,
+    4156,
+    5048
+   ],
+   "sentences": [
+    {
+     "text": "Franklin lived in the little village of Passy, about two miles from the heart of Paris, for nine years, where his famous letters were dated and he resided in part of the Hotel de Valentinois as his home and for the business of the embassy free of rent.",
+     "chunk_ids": [
+      6260
+     ]
+    },
+    {
+     "text": "Franklin spent five years in England on his mission, settled with his own servant and living in the Craven Street house, and his grandson Temple lived there with him during his second mission to England and accompanied him to France.",
+     "chunk_ids": [
+      6123
+     ]
+    },
+    {
+     "text": "Franklin established himself at Passy, in a court of the Hotel de Valentinois, and continued to reside there during his whole stay in France, maintaining an independent establishment.",
+     "chunk_ids": [
+      653
+     ]
+    },
+    {
+     "text": "Franklin visited Paris in September 1767, and the year preceding he had been in Germany, accompanied by Sir John Pringle.",
+     "chunk_ids": [
+      2943
+     ]
+    },
+    {
+     "text": "Franklin lived in London for a year and a half before embarking for Philadelphia.",
+     "chunk_ids": [
+      4156
+     ]
+    },
+    {
+     "text": "Franklin had a new house built during his absence, and after his return, his daughter Mrs. Sarah Bache was mistress of it; he arrived on the 5th of May, 1775, and was occupied in Philadelphia until October 26, 1776, when he sailed for France.",
+     "chunk_ids": [
+      6236
+     ]
+    }
+   ]
+  },
+  {
+   "n": 19,
+   "found": true,
+   "answer": "Benjamin Franklin had a peculiar fondness for swimming and retained his boyish skill in it to old age, even inventing swimming aids such as oval pallets for his hands and sandals for his feet, which he described in a letter to a friend later in life. He complained that he never could acquire the virtue of order in his business, having a place for everything and everything in its place, and this failing followed him to the end of his life.",
+   "question": "A habit, hobby or quirk of Benjamin Franklin.",
+   "retrieved": [
+    3774,
+    3830,
+    2031,
+    3829,
+    3287,
+    3816,
+    5867,
+    4253
+   ],
+   "sentences": [
+    {
+     "text": "Benjamin Franklin had a peculiar fondness for swimming and retained his boyish skill in it to old age, even inventing swimming aids such as oval pallets for his hands and sandals for his feet, which he described in a letter to a friend later in life.",
+     "chunk_ids": [
+      3830
+     ]
+    },
+    {
+     "text": "He complained that he never could acquire the virtue of order in his business, having a place for everything and everything in its place, and this failing followed him to the end of his life.",
+     "chunk_ids": [
+      5867
+     ]
+    }
+   ]
+  },
+  {
+   "n": 20,
+   "found": true,
+   "answer": "A few days before he died, Benjamin Franklin rose from his bed and begged that it might be made up for him so that he might die in a decent manner, and he calmly replied to his daughter, who hoped he would recover, 'I hope not.' He died with cheerfulness and peace, leaving behind him a mass of writings, full of his own kindness, humor, and wisdom, to perpetuate his influence and sweeten the life of coming generations. The Congress of the United States passed a resolution for members to wear the customary badge of mourning for one month as a mark of veneration due to his memory, and the National Assembly of France paid him distinguished honors upon his death. Boston showed appreciation for Benjamin Franklin by naming a square after him and erecting monuments in his honor, and sixty-six years after his death, his native city celebrated his memory with banquets, illuminations, and fireworks.",
+   "question": "How did Benjamin Franklin die, and how is Benjamin Franklin remembered?",
+   "retrieved": [
+    1989,
+    3679,
+    5717,
+    4528,
+    1957,
+    2029,
+    1972,
+    4527
+   ],
+   "sentences": [
+    {
+     "text": "A few days before he died, Benjamin Franklin rose from his bed and begged that it might be made up for him so that he might die in a decent manner, and he calmly replied to his daughter, who hoped he would recover, 'I hope not.'",
+     "chunk_ids": [
+      5717
+     ]
+    },
+    {
+     "text": "He died with cheerfulness and peace, leaving behind him a mass of writings, full of his own kindness, humor, and wisdom, to perpetuate his influence and sweeten the life of coming generations.",
+     "chunk_ids": [
+      2029
+     ]
+    },
+    {
+     "text": "The Congress of the United States passed a resolution for members to wear the customary badge of mourning for one month as a mark of veneration due to his memory, and the National Assembly of France paid him distinguished honors upon his death.",
+     "chunk_ids": [
+      3679
+     ]
+    },
+    {
+     "text": "Boston showed appreciation for Benjamin Franklin by naming a square after him and erecting monuments in his honor, and sixty-six years after his death, his native city celebrated his memory with banquets, illuminations, and fireworks.",
+     "chunk_ids": [
+      1972,
+      1989
+     ]
+    }
+   ]
+  }
+ ],
+ "story": {
+  "title": "The Life of Benjamin Franklin",
+  "paragraphs": [
+   {
+    "sentences": [
+     {
+      "n": 1,
+      "text": "Benjamin Franklin was born on a Sunday, in a house on Milk Street, opposite the Old South Church in Boston, and was baptized the same day by the pastor, Dr. Willard, with his birth recorded in the town register and in the records of the Old South Church; he was born January 6th, 1706, Old Style, which is the same as January 17th, New Style, according to the records of the Old South Church in Boston and the old public Register of Births in Boston.",
+      "bad_ids": [],
+      "chunk_ids": [
+       3812,
+       2184
+      ]
+     }
+    ]
+   },
+   {
+    "sentences": [
+     {
+      "n": 2,
+      "text": "Benjamin Franklin's father came from Ecton, Northamptonshire, England, where the family had lived for at least three hundred years, and several of his ancestors had been blacksmiths, though his father Josiah learned the trade of a dyer instead of being a blacksmith like the others in the family line.",
+      "bad_ids": [],
+      "chunk_ids": [
+       5724,
+       3774
+      ]
+     },
+     {
+      "n": 3,
+      "text": "Franklin's maternal grandfather was Peter Folger, who had an interest in literature and taught Indians to read and write; Franklin may have inherited his fondness for books from him.",
+      "bad_ids": [],
+      "chunk_ids": [
+       5726
+      ]
+     }
+    ]
+   },
+   {
+    "sentences": [
+     {
+      "n": 4,
+      "text": "Benjamin Franklin was the youngest son and the fifteenth child of his father, with his sisters Lydia and Jane being younger than him, and his youngest sister was Jane, who married Edward Mecom.",
+      "bad_ids": [],
+      "chunk_ids": [
+       3512,
+       3511,
+       3105
+      ]
+     },
+     {
+      "n": 5,
+      "text": "Three children were born to Josiah Franklin in Banbury: Elizabeth, Samuel, and Hannah.",
+      "bad_ids": [],
+      "chunk_ids": [
+       3798
+      ]
+     },
+     {
+      "n": 6,
+      "text": "At the time of Benjamin Franklin's death, there were living descendants of his brothers Samuel and James, and of his sisters Anne, Sarah, Lydia, and Jane.",
+      "bad_ids": [],
+      "chunk_ids": [
+       3528
+      ]
+     },
+     {
+      "n": 7,
+      "text": "His brother James died at Newport in Rhode Island, and his brother Peter died at an advanced age in Philadelphia.",
+      "bad_ids": [],
+      "chunk_ids": [
+       3105
+      ]
+     }
+    ]
+   },
+   {
+    "sentences": [
+     {
+      "n": 8,
+      "text": "Young Benjamin Franklin derived only a very insignificant part of his education from schools and was educated by his home, by Boston, by the events of his time, by his father's few books, and especially in his earliest years, by his uncle, who took great interest in him and was one of his first instructors.",
+      "bad_ids": [],
+      "chunk_ids": [
+       3816,
+       3817
+      ]
+     },
+     {
+      "n": 9,
+      "text": "Benjamin often attended the meetings of benefit societies with his father, listened to the questions, and waited breathless for the replies, taking note of everything and bringing into play in after-life the unconscious gatherings of his childhood.",
+      "bad_ids": [],
+      "chunk_ids": [
+       3853
+      ]
+     },
+     {
+      "n": 10,
+      "text": "During his childhood in Boston, there were frequent movements of troops, arrivals of armed fleets, and erection of defensive works, which interested Benjamin as they did other boys.",
+      "bad_ids": [],
+      "chunk_ids": [
+       3817
+      ]
+     }
+    ]
+   },
+   {
+    "sentences": [
+     {
+      "n": 11,
+      "text": "Benjamin Franklin attended the Boston Grammar-School when he was eight years old, but left before a year had passed due to the cost, then went to another school run by George Brownell for about a year, after which his formal schooling ended forever.",
+      "bad_ids": [],
+      "chunk_ids": [
+       5722,
+       3829
+      ]
+     },
+     {
+      "n": 12,
+      "text": "During his two years of schooling, Franklin learned to read and write, but was not very good at arithmetic.",
+      "bad_ids": [],
+      "chunk_ids": [
+       5722,
+       3829
+      ]
+     },
+     {
+      "n": 13,
+      "text": "He derived only a very insignificant part of his education from schools and was largely educated by his home, his father's books, and his uncle.",
+      "bad_ids": [],
+      "chunk_ids": [
+       3817,
+       3816
+      ]
+     },
+     {
+      "n": 14,
+      "text": "Franklin was self-taught in many areas, including French, and never attended college except to receive honorary degrees for public services.",
+      "bad_ids": [],
+      "chunk_ids": [
+       5794,
+       5795
+      ]
+     }
+    ]
+   },
+   {
+    "sentences": [
+     {
+      "n": 15,
+      "text": "Benjamin Franklin was apprenticed to his brother James Franklin, a printer, to learn his art, and served as an apprentice in the printing business, signing his indentures when he was twelve years of age and applying himself to learn the business, soon becoming useful to his brother.",
+      "bad_ids": [],
+      "chunk_ids": [
+       3868,
+       3867
+      ]
+     }
+    ]
+   },
+   {
+    "sentences": [
+     {
+      "n": 16,
+      "text": "One adventurous story from Benjamin Franklin's life is when, as a young man, he decided to run away from Boston to avoid the dangers he perceived in establishing himself there as a printer, and after a three-day passage, arrived in New York with very little money and no acquaintances or letters of recommendation, prepared to start anew in a strange city.",
+      "bad_ids": [],
+      "chunk_ids": [
+       4013,
+       4018
+      ]
+     },
+     {
+      "n": 17,
+      "text": "Another adventurous episode occurred much later in his life, when he left Philadelphia quietly with his two grandsons to board the 'Reprisal,' a swift war-vessel, to travel to France as an envoy; during the voyage, the ship was chased several times by enemy cruisers, and Captain Wickes had to make all sail to escape, while Franklin endured a rough and cramped journey through November gales.",
+      "bad_ids": [],
+      "chunk_ids": [
+       6250,
+       606
+      ]
+     }
+    ]
+   },
+   {
+    "sentences": [
+     {
+      "n": 18,
+      "text": "Benjamin Franklin experienced a dangerous moment when the ship he was on had a narrow escape from destruction near Falmouth harbor at midnight, as it was running swiftly toward land to avoid enemy cruisers, and only quick action by a captain saved them from shipwreck on rocks where a lighthouse stood.",
+      "bad_ids": [],
+      "chunk_ids": [
+       4898,
+       4899,
+       2735
+      ]
+     },
+     {
+      "n": 19,
+      "text": "Franklin described the light from the lighthouse as seeming to him 'as large as a cart-wheel,' and the event impressed him strongly, making him resolve to encourage the building of lighthouses in America if he should live to return.",
+      "bad_ids": [],
+      "chunk_ids": [
+       4899,
+       2735
+      ]
+     }
+    ]
+   },
+   {
+    "sentences": [
+     {
+      "n": 20,
+      "text": "Franklin candidly confessed to what he called an 'erratum,' which he described as perhaps the worst mistake of his life: after becoming very intimate with a woman who was dependent on him, he attempted to take liberties with her, was repulsed, and as a result lost the friendship of Ralph, who considered all obligations annulled and ended their relationship for nearly thirty years.",
+      "bad_ids": [],
+      "chunk_ids": [
+       4130
+      ]
+     },
+     {
+      "n": 21,
+      "text": "Franklin had an illegitimate son, William Franklin, and if laws had been enforced, he would have received twenty-one lashes at the public whipping-post of Philadelphia for this.",
+      "bad_ids": [],
+      "chunk_ids": [
+       4254
+      ]
+     }
+    ]
+   },
+   {
+    "sentences": [
+     {
+      "n": 22,
+      "text": "Benjamin Franklin married Deborah Read on September 1st, 1730.",
+      "bad_ids": [],
+      "chunk_ids": [
+       4314
+      ]
+     },
+     {
+      "n": 23,
+      "text": "Franklin described Deborah as a 'good and faithful helpmate' who assisted him much by attending the shop, and said, 'we throve together, and have ever mutually endeavored to make each other happy.'",
+      "bad_ids": [],
+      "chunk_ids": [
+       5881
+      ]
+     },
+     {
+      "n": 24,
+      "text": "He was described as a faithful, tender, and considerate husband, of whom his wife was proud and in whom his wife was happy.",
+      "bad_ids": [],
+      "chunk_ids": [
+       4316
+      ]
+     }
+    ]
+   },
+   {
+    "sentences": [
+     {
+      "n": 25,
+      "text": "Benjamin Franklin had a son, Francis Folger Franklin, who died in childhood, and a daughter, Sarah, who married Richard Bache and left numerous descendants.",
+      "bad_ids": [],
+      "chunk_ids": [
+       3527,
+       1958,
+       5894
+      ]
+     },
+     {
+      "n": 26,
+      "text": "His eldest son, William, died in London in 1813 and had an only son, William Temple, who died without issue.",
+      "bad_ids": [],
+      "chunk_ids": [
+       3527,
+       1958,
+       5894
+      ]
+     },
+     {
+      "n": 27,
+      "text": "Franklin also had an illegitimate son, William, who was brought home as a child and cared for along with his other children, and William's illegitimate son, Temple Franklin, was the companion and secretary of his grandfather in England and France.",
+      "bad_ids": [],
+      "chunk_ids": [
+       3527,
+       1958,
+       5894
+      ]
+     },
+     {
+      "n": 28,
+      "text": "There is mention of an illegitimate daughter who was apparently never brought home and is not referred to in Franklin's writings, except in occasional letters in which he sends her his love; she was married to John Foxcroft, according to a letter in the collection of the Pennsylvania Historical Society.",
+      "bad_ids": [],
+      "chunk_ids": [
+       3527,
+       1958,
+       5894
+      ]
+     },
+     {
+      "n": 29,
+      "text": "The children of Benjamin and Deborah Franklin were Francis Folger and Sarah, and Sarah and Richard Bache had eight children: Benjamin Franklin, William, Sarah, Elizabeth Franklin, Louis, Deborah, Richard, and Sarah.",
+      "bad_ids": [],
+      "chunk_ids": [
+       3527,
+       1958,
+       5894
+      ]
+     }
+    ]
+   },
+   {
+    "sentences": [
+     {
+      "n": 30,
+      "text": "Franklin's friends included men of science, clergymen, navigators, musicians, authors, and liberal members of parliament, such as Strahan, Burke, Hume, Lord Karnes, Sir John Pringle, Dr. Fothergill, and Dr. Cannon.",
+      "bad_ids": [],
+      "chunk_ids": [
+       5376
+      ]
+     },
+     {
+      "n": 31,
+      "text": "Franklin had life-long friendships with Fothergill, a physician who assisted in making his electrical discoveries known, and with Priestley, the discoverer of oxygen, who became a bosom friend.",
+      "bad_ids": [],
+      "chunk_ids": [
+       6122
+      ]
+     },
+     {
+      "n": 32,
+      "text": "William Strahan, a publisher and member of Parliament, was also a valued friend who shared a background in printing with Franklin.",
+      "bad_ids": [],
+      "chunk_ids": [
+       6122,
+       5376
+      ]
+     },
+     {
+      "n": 33,
+      "text": "Franklin and Collinson were correspondents and friends from 1730 to the death of Collinson in 1768.",
+      "bad_ids": [],
+      "chunk_ids": [
+       4148
+      ]
+     },
+     {
+      "n": 34,
+      "text": "Franklin's intimates at one period were three young men of his own rank and condition, bound together by a common love of books.",
+      "bad_ids": [],
+      "chunk_ids": [
+       4086
+      ]
+     },
+     {
+      "n": 35,
+      "text": "Franklin had a close childhood friend named Collins, with whom he had been intimate from childhood and had read the same books together.",
+      "bad_ids": [],
+      "chunk_ids": [
+       4067
+      ]
+     },
+     {
+      "n": 36,
+      "text": "One of Benjamin Franklin's first instructors was his uncle, who took great interest in him and contributed to his early education, especially in his earliest years.",
+      "bad_ids": [],
+      "chunk_ids": [
+       3816
+      ]
+     }
+    ]
+   },
+   {
+    "sentences": [
+     {
+      "n": 37,
+      "text": "Arthur Lee is described as the enemy of Franklin, and the source of calumnies that disturbed Franklin's peace and lessened his influence, motivated by a desire for Franklin's place.",
+      "bad_ids": [],
+      "chunk_ids": [
+       26
+      ]
+     },
+     {
+      "n": 38,
+      "text": "Franklin's old opponents, the proprietary party, abused him as faithless to his province and the American cause, and a certain Samuel Smith spread negative rumors about him.",
+      "bad_ids": [],
+      "chunk_ids": [
+       6164
+      ]
+     },
+     {
+      "n": 39,
+      "text": "There was hostility to Franklin in Congress, partly due to irritation from Adams and others regarding Franklin's reputation in France.",
+      "bad_ids": [],
+      "chunk_ids": [
+       6341
+      ]
+     },
+     {
+      "n": 40,
+      "text": "Franklin had enemies during the long contests in Pennsylvania, particularly among the wealth and rank of the province, and there remains an hereditary antipathy to him in a certain circle in Philadelphia.",
+      "bad_ids": [],
+      "chunk_ids": [
+       1179
+      ]
+     },
+     {
+      "n": 41,
+      "text": "Franklin experienced acrimony with Thomas and Richard Penn, and he seems to have disliked their father as well.",
+      "bad_ids": [],
+      "chunk_ids": [
+       4867
+      ]
+     },
+     {
+      "n": 42,
+      "text": "The natural abhorrence which tory courtiers entertained for Franklin influenced the government's subsequent course toward him.",
+      "bad_ids": [],
+      "chunk_ids": [
+       5309
+      ]
+     }
+    ]
+   },
+   {
+    "sentences": [
+     {
+      "n": 43,
+      "text": "Benjamin Franklin is widely known for his discoveries in electricity, particularly the popular image of his kite experiment, which is often cited as the main thing people remember about his contributions to science.",
+      "bad_ids": [],
+      "chunk_ids": [
+       6034
+      ]
+     },
+     {
+      "n": 44,
+      "text": "His reputation was greatly enhanced by his discoveries in electricity, making his name well known in both America and Europe, and he became a household word from Boston to Charleston.",
+      "bad_ids": [],
+      "chunk_ids": [
+       4726
+      ]
+     },
+     {
+      "n": 45,
+      "text": "Franklin's fame was further increased by the invention of the lightning-rod, which was considered most important in building up his reputation.",
+      "bad_ids": [],
+      "chunk_ids": [
+       6344
+      ]
+     },
+     {
+      "n": 46,
+      "text": "He was also celebrated for his writings, such as Poor Richard's maxims, which were widely known and translated, and for his clear and modest scientific letters.",
+      "bad_ids": [],
+      "chunk_ids": [
+       623,
+       4601
+      ]
+     }
+    ]
+   },
+   {
+    "sentences": [
+     {
+      "n": 47,
+      "text": "Franklin invented the lightning-rod and explained its action in a paper sent to Collinson.",
+      "bad_ids": [],
+      "chunk_ids": [
+       6025
+      ]
+     },
+     {
+      "n": 48,
+      "text": "He invented the invaluable contrivance by which a fire consumes its own smoke.",
+      "bad_ids": [],
+      "chunk_ids": [
+       2027
+      ]
+     },
+     {
+      "n": 49,
+      "text": "Franklin made important discoveries respecting the causes of colds.",
+      "bad_ids": [],
+      "chunk_ids": [
+       2027
+      ]
+     },
+     {
+      "n": 50,
+      "text": "He discovered the temperature of the Gulf stream and that Northeast storms begin in the Southwest.",
+      "bad_ids": [],
+      "chunk_ids": [
+       2027
+      ]
+     },
+     {
+      "n": 51,
+      "text": "Franklin invented the 'Pennsylvania Fireplace,' which was an improvement on old methods of heating and ventilation.",
+      "bad_ids": [],
+      "chunk_ids": [
+       6021
+      ]
+     }
+    ]
+   },
+   {
+    "sentences": [
+     {
+      "n": 52,
+      "text": "Franklin lived in the little village of Passy, about two miles from the heart of Paris, for nine years, where his famous letters were dated and he resided in part of the Hotel de Valentinois as his home and for the business of the embassy free of rent.",
+      "bad_ids": [],
+      "chunk_ids": [
+       6260
+      ]
+     },
+     {
+      "n": 53,
+      "text": "Franklin spent five years in England on his mission, settled with his own servant and living in the Craven Street house, and his grandson Temple lived there with him during his second mission to England and accompanied him to France.",
+      "bad_ids": [],
+      "chunk_ids": [
+       6123
+      ]
+     },
+     {
+      "n": 54,
+      "text": "Franklin established himself at Passy, in a court of the Hotel de Valentinois, and continued to reside there during his whole stay in France, maintaining an independent establishment.",
+      "bad_ids": [],
+      "chunk_ids": [
+       653
+      ]
+     },
+     {
+      "n": 55,
+      "text": "Franklin visited Paris in September 1767, and the year preceding he had been in Germany, accompanied by Sir John Pringle.",
+      "bad_ids": [],
+      "chunk_ids": [
+       2943
+      ]
+     },
+     {
+      "n": 56,
+      "text": "Franklin lived in London for a year and a half before embarking for Philadelphia.",
+      "bad_ids": [],
+      "chunk_ids": [
+       4156
+      ]
+     },
+     {
+      "n": 57,
+      "text": "Franklin had a new house built during his absence, and after his return, his daughter Mrs. Sarah Bache was mistress of it; he arrived on the 5th of May, 1775, and was occupied in Philadelphia until October 26, 1776, when he sailed for France.",
+      "bad_ids": [],
+      "chunk_ids": [
+       6236
+      ]
+     }
+    ]
+   },
+   {
+    "sentences": [
+     {
+      "n": 58,
+      "text": "Benjamin Franklin had a peculiar fondness for swimming and retained his boyish skill in it to old age, even inventing swimming aids such as oval pallets for his hands and sandals for his feet, which he described in a letter to a friend later in life.",
+      "bad_ids": [],
+      "chunk_ids": [
+       3830
+      ]
+     },
+     {
+      "n": 59,
+      "text": "He complained that he never could acquire the virtue of order in his business, having a place for everything and everything in its place, and this failing followed him to the end of his life.",
+      "bad_ids": [],
+      "chunk_ids": [
+       5867
+      ]
+     }
+    ]
+   },
+   {
+    "sentences": [
+     {
+      "n": 60,
+      "text": "A few days before he died, Benjamin Franklin rose from his bed and begged that it might be made up for him so that he might die in a decent manner, and he calmly replied to his daughter, who hoped he would recover, 'I hope not.'",
+      "bad_ids": [],
+      "chunk_ids": [
+       5717
+      ]
+     },
+     {
+      "n": 61,
+      "text": "He died with cheerfulness and peace, leaving behind him a mass of writings, full of his own kindness, humor, and wisdom, to perpetuate his influence and sweeten the life of coming generations.",
+      "bad_ids": [],
+      "chunk_ids": [
+       2029
+      ]
+     },
+     {
+      "n": 62,
+      "text": "The Congress of the United States passed a resolution for members to wear the customary badge of mourning for one month as a mark of veneration due to his memory, and the National Assembly of France paid him distinguished honors upon his death.",
+      "bad_ids": [],
+      "chunk_ids": [
+       3679
+      ]
+     },
+     {
+      "n": 63,
+      "text": "Boston showed appreciation for Benjamin Franklin by naming a square after him and erecting monuments in his honor, and sixty-six years after his death, his native city celebrated his memory with banquets, illuminations, and fireworks.",
+      "bad_ids": [],
+      "chunk_ids": [
+       1972,
+       1989
+      ]
+     }
+    ]
+   }
+  ]
+ },
+ "review": {
+  "names": 3,
+  "total": 63,
+  "partly": 0,
+  "uncited": 0,
+  "sentences": [
+   {
+    "n": 1,
+    "verdict": "supported",
+    "not_in_snippets": ""
+   },
+   {
+    "n": 2,
+    "verdict": "supported",
+    "not_in_snippets": ""
+   },
+   {
+    "n": 3,
+    "verdict": "supported",
+    "not_in_snippets": ""
+   },
+   {
+    "n": 4,
+    "verdict": "supported",
+    "not_in_snippets": ""
+   },
+   {
+    "n": 5,
+    "verdict": "supported",
+    "not_in_snippets": ""
+   },
+   {
+    "n": 6,
+    "verdict": "supported",
+    "not_in_snippets": ""
+   },
+   {
+    "n": 7,
+    "verdict": "supported",
+    "not_in_snippets": ""
+   },
+   {
+    "n": 8,
+    "verdict": "supported",
+    "not_in_snippets": ""
+   },
+   {
+    "n": 9,
+    "verdict": "supported",
+    "not_in_snippets": ""
+   },
+   {
+    "n": 10,
+    "verdict": "supported",
+    "not_in_snippets": ""
+   },
+   {
+    "n": 11,
+    "verdict": "supported",
+    "not_in_snippets": ""
+   },
+   {
+    "n": 12,
+    "verdict": "supported",
+    "not_in_snippets": ""
+   },
+   {
+    "n": 13,
+    "verdict": "supported",
+    "not_in_snippets": ""
+   },
+   {
+    "n": 14,
+    "verdict": "supported",
+    "not_in_snippets": ""
+   },
+   {
+    "n": 15,
+    "verdict": "supported",
+    "not_in_snippets": ""
+   },
+   {
+    "n": 16,
+    "verdict": "supported",
+    "not_in_snippets": ""
+   },
+   {
+    "n": 17,
+    "verdict": "supported",
+    "not_in_snippets": ""
+   },
+   {
+    "n": 18,
+    "verdict": "supported",
+    "not_in_snippets": ""
+   },
+   {
+    "n": 19,
+    "verdict": "supported",
+    "not_in_snippets": ""
+   },
+   {
+    "n": 20,
+    "verdict": "supported",
+    "not_in_snippets": ""
+   },
+   {
+    "n": 21,
+    "verdict": "supported",
+    "not_in_snippets": ""
+   },
+   {
+    "n": 22,
+    "verdict": "supported",
+    "not_in_snippets": ""
+   },
+   {
+    "n": 23,
+    "verdict": "names",
+    "missing_words": [
+     "Deborah"
+    ],
+    "not_in_snippets": ""
+   },
+   {
+    "n": 24,
+    "verdict": "supported",
+    "not_in_snippets": ""
+   },
+   {
+    "n": 25,
+    "verdict": "supported",
+    "not_in_snippets": ""
+   },
+   {
+    "n": 26,
+    "verdict": "supported",
+    "not_in_snippets": ""
+   },
+   {
+    "n": 27,
+    "verdict": "supported",
+    "not_in_snippets": ""
+   },
+   {
+    "n": 28,
+    "verdict": "supported",
+    "not_in_snippets": ""
+   },
+   {
+    "n": 29,
+    "verdict": "supported",
+    "not_in_snippets": ""
+   },
+   {
+    "n": 30,
+    "verdict": "supported",
+    "not_in_snippets": ""
+   },
+   {
+    "n": 31,
+    "verdict": "supported",
+    "not_in_snippets": ""
+   },
+   {
+    "n": 32,
+    "verdict": "supported",
+    "not_in_snippets": ""
+   },
+   {
+    "n": 33,
+    "verdict": "supported",
+    "not_in_snippets": ""
+   },
+   {
+    "n": 34,
+    "verdict": "supported",
+    "not_in_snippets": ""
+   },
+   {
+    "n": 35,
+    "verdict": "supported",
+    "not_in_snippets": ""
+   },
+   {
+    "n": 36,
+    "verdict": "supported",
+    "not_in_snippets": ""
+   },
+   {
+    "n": 37,
+    "verdict": "supported",
+    "not_in_snippets": ""
+   },
+   {
+    "n": 38,
+    "verdict": "supported",
+    "not_in_snippets": ""
+   },
+   {
+    "n": 39,
+    "verdict": "names",
+    "missing_words": [
+     "France"
+    ],
+    "not_in_snippets": ""
+   },
+   {
+    "n": 40,
+    "verdict": "names",
+    "missing_words": [
+     "Pennsylvania"
+    ],
+    "not_in_snippets": ""
+   },
+   {
+    "n": 41,
+    "verdict": "supported",
+    "not_in_snippets": ""
+   },
+   {
+    "n": 42,
+    "verdict": "supported",
+    "not_in_snippets": ""
+   },
+   {
+    "n": 43,
+    "verdict": "supported",
+    "not_in_snippets": ""
+   },
+   {
+    "n": 44,
+    "verdict": "supported",
+    "not_in_snippets": ""
+   },
+   {
+    "n": 45,
+    "verdict": "supported",
+    "not_in_snippets": ""
+   },
+   {
+    "n": 46,
+    "verdict": "supported",
+    "not_in_snippets": ""
+   },
+   {
+    "n": 47,
+    "verdict": "supported",
+    "not_in_snippets": ""
+   },
+   {
+    "n": 48,
+    "verdict": "supported",
+    "not_in_snippets": ""
+   },
+   {
+    "n": 49,
+    "verdict": "supported",
+    "not_in_snippets": ""
+   },
+   {
+    "n": 50,
+    "verdict": "supported",
+    "not_in_snippets": ""
+   },
+   {
+    "n": 51,
+    "verdict": "supported",
+    "not_in_snippets": ""
+   },
+   {
+    "n": 52,
+    "verdict": "supported",
+    "not_in_snippets": ""
+   },
+   {
+    "n": 53,
+    "verdict": "supported",
+    "not_in_snippets": ""
+   },
+   {
+    "n": 54,
+    "verdict": "supported",
+    "not_in_snippets": ""
+   },
+   {
+    "n": 55,
+    "verdict": "supported",
+    "not_in_snippets": ""
+   },
+   {
+    "n": 56,
+    "verdict": "supported",
+    "not_in_snippets": ""
+   },
+   {
+    "n": 57,
+    "verdict": "supported",
+    "not_in_snippets": ""
+   },
+   {
+    "n": 58,
+    "verdict": "supported",
+    "not_in_snippets": ""
+   },
+   {
+    "n": 59,
+    "verdict": "supported",
+    "not_in_snippets": ""
+   },
+   {
+    "n": 60,
+    "verdict": "supported",
+    "not_in_snippets": ""
+   },
+   {
+    "n": 61,
+    "verdict": "supported",
+    "not_in_snippets": ""
+   },
+   {
+    "n": 62,
+    "verdict": "supported",
+    "not_in_snippets": ""
+   },
+   {
+    "n": 63,
+    "verdict": "supported",
+    "not_in_snippets": ""
+   }
+  ],
+  "supported": 60,
+  "unsupported": 0
+ },
+ "error": "",
+ "usd": 0.22327782000000004,
+ "created_at": "2026-11-18T21:52:42.589Z",
+ "finished_at": "2026-11-18T21:54:05.798Z"
+}

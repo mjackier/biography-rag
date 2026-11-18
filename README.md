@@ -5,7 +5,7 @@ and stores them, asks 20 questions against the store, and weaves a life story **
 retrieved snippets**. Every sentence carries the chunk IDs it came from, and a checker flags any
 sentence the cited chunks don't support.
 
-Live: https://biography-rag-1kep.onrender.com · Write-up: [WRITEUP.md](WRITEUP.md)
+Live: https://biography-rag-1kep.onrender.com · Write-up: [WRITEUP.md](WRITEUP.md) · Story: [runs/story-run-5.md](runs/story-run-5.md) · Log review: [LOG-REVIEW.md](LOG-REVIEW.md)
 
 ## How it works
 
@@ -27,7 +27,9 @@ Live: https://biography-rag-1kep.onrender.com · Write-up: [WRITEUP.md](WRITEUP.
 5. **Weave the story** from the 20 answers. Every story sentence carries chunk IDs; questions that were
    not in the sources are skipped.
 6. **Check every sentence**. A separate call gets each story sentence with the full text of the chunks
-   it cites and labels it supported / partly / unsupported, quoting anything not in the chunks.
+   it cites and labels it supported / partly / unsupported, quoting anything not in the chunks. Then a
+   mechanical check makes sure every name and number in the sentence appears in those chunks (it caught
+   additions the model checker missed; see LOG-REVIEW.md).
 7. **Logs**. Every search (queries, retrieved chunk IDs and scores), every prompt sent and response
    received, the story and the check are stored in `bio_logs` and shown on the run's Logs tab
    (`/api/runs/:id/logs`).

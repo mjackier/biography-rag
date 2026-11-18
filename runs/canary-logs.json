@@ -1,0 +1,288 @@
+{
+ "banknote": {
+  "run": {
+   "id": 2,
+   "person": "Benjamin Franklin",
+   "kind": "canary",
+   "status": "done",
+   "created_at": "2026-11-18T21:45:41.187Z",
+   "usd": 0.00486628
+  },
+  "logs": [
+   {
+    "id": 47,
+    "run_id": 2,
+    "step": "search",
+    "qn": 0,
+    "question": "On which U.S. banknote does Benjamin Franklin's portrait appear?",
+    "data": {
+     "ms": 8367,
+     "queries": [
+      "On which U.S. banknote does Benjamin Franklin's portrait appear?"
+     ],
+     "retrieved": [
+      {
+       "id": 5664,
+       "cos": 0.5386,
+       "doc": "Fisher, The True Benjamin Franklin (1899)",
+       "rrf": 0.03178,
+       "bm25": 10.065,
+       "page_to": 8,
+       "page_from": 8,
+       "document_id": 4
+      },
+      {
+       "id": 5660,
+       "cos": 0.5106,
+       "doc": "Fisher, The True Benjamin Franklin (1899)",
+       "rrf": 0.03083,
+       "bm25": 10.391,
+       "page_to": 6,
+       "page_from": 6,
+       "document_id": 4
+      },
+      {
+       "id": 5699,
+       "cos": 0.5132,
+       "doc": "Fisher, The True Benjamin Franklin (1899)",
+       "rrf": 0.02986,
+       "bm25": 9.484,
+       "page_to": 20,
+       "page_from": 20,
+       "document_id": 4
+      },
+      {
+       "id": 1831,
+       "cos": 0.5246,
+       "doc": "Parton, Life and Times of Benjamin Franklin, vol. 2 (1864)",
+       "rrf": 0.02896,
+       "bm25": 8.191,
+       "page_to": 720,
+       "page_from": 719,
+       "document_id": 1
+      },
+      {
+       "id": 5701,
+       "cos": 0.4855,
+       "doc": "Fisher, The True Benjamin Franklin (1899)",
+       "rrf": 0.02869,
+       "bm25": 10.235,
+       "page_to": 21,
+       "page_from": 20,
+       "document_id": 4
+      },
+      {
+       "id": 2162,
+       "cos": 0.4668,
+       "doc": "The Life of Benjamin Franklin, containing the Autobiography, with notes and a continuation (Sparks ed.)",
+       "rrf": 0.0283,
+       "bm25": 12.676,
+       "page_to": 13,
+       "page_from": 12,
+       "document_id": 2
+      },
+      {
+       "id": 5658,
+       "cos": 0.5097,
+       "doc": "Fisher, The True Benjamin Franklin (1899)",
+       "rrf": 0.02801,
+       "bm25": 8.657,
+       "page_to": 5,
+       "page_from": 5,
+       "document_id": 4
+      },
+      {
+       "id": 5665,
+       "cos": 0.4878,
+       "doc": "Fisher, The True Benjamin Franklin (1899)",
+       "rrf": 0.02727,
+       "bm25": 9.01,
+       "page_to": 9,
+       "page_from": 8,
+       "document_id": 4
+      }
+     ]
+    },
+    "created_at": "2026-11-18T21:45:49.584Z"
+   },
+   {
+    "id": 48,
+    "run_id": 2,
+    "step": "answer",
+    "qn": 0,
+    "question": "On which U.S. banknote does Benjamin Franklin's portrait appear?",
+    "data": {
+     "usd": 0.00487,
+     "kept": [],
+     "model": "gpt-4.1",
+     "usage": {
+      "total_tokens": 2406,
+      "prompt_tokens": 2397,
+      "completion_tokens": 9,
+      "prompt_tokens_details": {
+       "audio_tokens": 0,
+       "cached_tokens": 0
+      },
+      "completion_tokens_details": {
+       "audio_tokens": 0,
+       "reasoning_tokens": 0,
+       "accepted_prediction_tokens": 0,
+       "rejected_prediction_tokens": 0
+      }
+     },
+     "prompt": {
+      "user": "Question: On which U.S. banknote does Benjamin Franklin's portrait appear?\n\nSource snippets:\n\n[C5664] (Fisher, The True Benjamin Franklin (1899), p. 8)\nThe kings of France at that time usually gave their por trait to a foreign ambassador on his return to his country. This one, by Sicardi, which was given to Franklin, was formerly surrounded by two rows of four hundred and eight diamonds, and was probably worth from ten to fifteen thousand dollars. It is now in the possession of Mr. J. May Duane, of Philadelphia, by whose permission it is reproduced.\n\nFRANKLIN PORTRAIT IN WEST COLLECTION . . . 350\n\nThis portrait is a pencil sketch recently sold with other property of Benjamin West, and purchased by the Hon. S. W. Pennypacker, of Philadelphia, by whose permission it is reproduced. It is supposed to be a drawing by some unknown artist of the bust by Ceracchi.\n\nFRANKLIN'S GRAVE IN CHRIST CHURCH GRAVEYARD, PHILADELPHIA 360\n\nThe flat stone marks the grave of Franklin and his wife. The larger upright stone is in memory of John Read, Mrs. Franklin's father, and the smaller one is in memory of Franklin's son, Francis, who died in infancy. 16\n\nThe True Benjamin Franklin\n\nPHYSICAL CHARACTERISTICS\n\n[C5660] (Fisher, The True Benjamin Franklin (1899), p. 6)\nReproduced by permission of the Historical Society of Pennsylvania from the painting in their possession. It has been supposed by some to be a portrait of Franklin ; but it has not the slightest resemblance to his other por traits, and the letter held in the hand is addressed to John Foxcroft.\n\nWILLIAM FRANKLIN, ROYAL GOVERNOR OF NEW\n\nJERSEY 108\n\nBorn 1730, died 1813 ; son of Benjamin Franklin ; was Governor of New Jersey from 1762 to 1776, when he be came a Tory. The reproduction is from an etching by Albert Rosenthal of the portrait once temporarily in the Philadelphia Library and owned by Dr. T. Hewson Bache, of Philadelphia.\n\nWILLIAM TEMPLE FRANKLIN 113\n\nBorn 1760, died 1823, son of William Franklin, Governor of New Jersey. He was brought up principally by his grandfather, for whom he acted as secretary in Paris, dur ing the Revolution, and by whom he was saved from fol lowing his father to Toryism. The reproduction is from an etching by Albert Rosenthal of the portrait in the Trumbull Collection, Yale School of Art.\n\nMRS. FRANKLIN 116\n\n[C5699] (Fisher, The True Benjamin Franklin (1899), p. 20)\nBut, on the other hand, the portrait has the peculiar set ex pression of the mouth and the long chin which were so characteristic of Franklin ; and it would have been entirely possible for him to have borrowed the clothes and had the picture painted cheaply or as a kind ness. It is not well painted, need not have been expensive, and, as there were no photographs then, paintings were the only way by which people could give their likenesses to relatives.\n\nThe Martin portrait, painted when he was about sixty years old, represents him seated, his elbows resting on a table, and holding a document, which he is reading with deep but composed and serene attention. It was no doubt intended to represent him in a characteristic attitude. As showing the calm philosopher and diplomat reading and think ing, somewhat idealized and yet a more or less true likeness, it is in many respects the best picture we have of him. But we cannot see the eyes, and it does not reveal as much character as we could wish.\n\n31\n\nTHE TRUE BENJAMIN FRANKLIN\n\n[C1831] (Parton, Life and Times of Benjamin Franklin, vol. 2 (1864), p. 719-720)\nHe had twelve shares in the Bank of Xorth America, about five thousand pounds in money, and the portrait of the King of France adorned with four hundred and eight diamonds. A balance of unknown amount was due to him from the United States, besides numberless small debts dating back to the time when he was a printer and stationer.\n\nThe will opens with this sentence : \u2014 \" I, Benjamin Franklin, of Philadelphia, prmter, late Minister Plenipotentiary from the United States of America to the Court of France, now President of the State of Pennsylvania, do make and declare my last will and testa^ ment as follows \"\n\nTo his son, William Franklin, he left his lands in Nova Scotia, and forgave the debts due to him from his son. \" The part he acted against me,\" the will continued, \" in the late' war, which is of public notoriety, will account for my leaving him no more of an estate he endeavored to deprive me of\" The bulk of his Philadel-\n\n588 LIFE AKD TIMES OF BENJAMIN FUANKLFN. [l788.\n\n[C5701] (Fisher, The True Benjamin Franklin (1899), p. 20-21)\nYou try to imagine which one of his thousand clever strokes and sayings was passing through his mind that day ; and the strong, intensely individualized figure, which resembles that of an old athlete, is wonderfully suggestive of life, experience, and contest\n\nBut the Duplessis portrait, which was painted from life in Paris in 1778, when he was seventy-two, re veals more than any of them. The Sumner portrait is Franklin the youth ; the Martin and the Grund mann portraits are Franklin the philosopher and statesman ; the Duplessis portrait is Franklin the man.\n\nUnfortunately, it is impossible to get a good repro duction of the Duplessis portrait, because there is so much detail in it and the coloring and lights and shadows cannot be successfully copied. But any one who will examine the original or any good replicas\n\n32\n\nTHE MARTIN PORTRAIT OF FRANKLIN\n\nPHYSICAL CHARACTERISTICS\n\n[C2162] (The Life of Benjamin Franklin, containing the Autobiography, with notes and a continuation (Sparks ed.), p. 12-13)\nFrance, on the Death of Franklin, . . . . 592\n\nVIII. Epitaph, .596\n\nIX. Franklin's Will, . \u25a0 . . . . . .599\n\nLIST OF THE PLATES.\n\nPortrait of Franklin, at the age of twenty-four, frontispiece\n\nThe Game of Chess title-page\n\nCopy of a Medal presented to Franklin by the\n\nRoyal Society of London, 1753 page 175\n\nPortrait of Mrs. Franklin . . 229\n\nPortrait of Franklin, by Martin, at sixty years\n\nOF AGE 300\n\nFacsimile of Franklin's Handwriting 392\n\nHoudon's Bust of Franklin 421\n\nPortrait of Franklin, by Duplessis 489\n\nNOTE. \u2014 The references in this volume to Franklin's writings are to Mr. Sparks 's edition of his Works.\n\nLIFE\n\nOF\n\nBENJAMIN FRANKLIN\n\nPART FIRST;\n\nAUTOBIOGRAPHY\n\nLIFE\n\nOF\n\nBENJAMIN FRANKLIN\n\nAUTOBIOGRAPHY.*\n\nCHAPTER I.\n\n[C5658] (Fisher, The True Benjamin Franklin (1899), p. 5)\nPainted from life by Duplessis in Paris in 1778, and believed to be the best likeness of Franklin. The repro duction is from the original in the Academy of Fine Arts, Philadelphia, by permission of the owner. Duplessis also made a pastel drawing of Franklin in 1783, which has often been reproduced.\n\nFRANKLIN TOWED BY HIS KITE 19\n\nThis picture is copied from an engraving on the title-page of the old English edition of Franklin's Works, published in 1806 by J. Johnson & Co., London.\n\nTHE SUMNER PORTRAIT OF FRANKLIN 29\n\nPainted, as is supposed, in London in 1726, when he was twenty years old, and now in the possession of Harvard University. Its history and the doubts as to its authenticity are given in the text.\n\nTHE MARTIN PORTRAIT OF FRANKLIN 32\n\nPainted by Martin in England in 1765, at the request of Mr. Robert Alexander, for whom Franklin had performed a service in examining some documents and giving his opinion.\n\nTHE GRUNDMANN IDEAL PORTRAIT OF FRANKLIN . 34\n\n[C5665] (Fisher, The True Benjamin Franklin (1899), p. 8-9)\nf FRANKLIN was a rather large man, and is supposed to have been about five feet ten inches in height In his youth he was stout, and in old age corpulent and heavy, with rounded shoulders. The portraits of him reveal a very vigorous-looking man, with a thick upper arm and a figure which, even in old age, was full and rounded. In fact, this rounded con tour is his most striking characteristic, as the angular outline is the characteristic of Lincoln. Franklin's figure was a series of harmonious curves, which make pictures of him always pleasing. These curves ex tended over his head and even to the lines of his face, softening the expression, slightly veiling the iron resolution, and entirely consistent with the wide sympathies, varied powers, infinite shrewdness, and vast experience which we know he ppssessed. | ,\n\nIn his earliest portrait as a, yoteifi 'vf , twenty; he looks as if his bones were, large -fi but 'irv .later, por\u00bb, traits this largeness of bone which lie 'alight Have had from his Massachusetts origin is not so evident\n\n2 17\n\nTHE TRUE BENJAMIN FRANKLIN",
+      "system": "You answer one question about Benjamin Franklin using ONLY the source snippets the user gives you. Each snippet starts with its ID, like [C123].\n\nRules:\n- Use only what the snippets say. Add nothing you know from anywhere else: no dates, places, names, numbers, reasons or background, even if you are sure it is true and even if a snippet seems to leave it out.\n- Biographies mention many people. Only use a snippet for what it says about Benjamin Franklin. Check who each sentence in the snippet is about: parents, uncles, children and namesakes often share a name (a \"Benjamin\" in a family history may be an uncle). If a snippet is about someone else, don't move it onto Benjamin Franklin.\n- Don't combine facts into something no snippet says: no new totals (\"three children\") or summaries unless a snippet states them.\n- Every sentence lists the IDs of the snippets that state it (chunk_ids: the numbers only, e.g. 123).\n- If the snippets do not answer the question, set \"found\" to false and \"sentences\" to []. Don't guess, and don't answer a different question instead.\n- A partial answer is fine: say only the part the snippets support.\n- Write 2 to 5 plain sentences. You may quote short phrases from the snippets. If snippets disagree, say so and cite both."
+     },
+     "dropped": [],
+     "verdict": "not in the sources",
+     "response": "{\"found\":false,\"sentences\":[]}"
+    },
+    "created_at": "2026-11-18T21:45:50.405Z"
+   }
+  ]
+ },
+ "tv_series": {
+  "run": {
+   "id": 3,
+   "person": "Benjamin Franklin",
+   "kind": "canary",
+   "status": "done",
+   "created_at": "2026-11-18T21:45:50.768Z",
+   "usd": 0.00465428
+  },
+  "logs": [
+   {
+    "id": 49,
+    "run_id": 3,
+    "step": "search",
+    "qn": 0,
+    "question": "Which actor played Benjamin Franklin in the 2024 television series Franklin?",
+    "data": {
+     "ms": 223,
+     "queries": [
+      "Which actor played Benjamin Franklin in the 2024 television series Franklin?"
+     ],
+     "retrieved": [
+      {
+       "id": 5665,
+       "cos": 0.472,
+       "doc": "Fisher, The True Benjamin Franklin (1899)",
+       "rrf": 0.02742,
+       "bm25": 7.282,
+       "page_to": 9,
+       "page_from": 8,
+       "document_id": 4
+      },
+      {
+       "id": 4523,
+       "cos": 0.4743,
+       "doc": "Parton, Life and Times of Benjamin Franklin, vol. 1 (1864)",
+       "rrf": 0.02661,
+       "bm25": 6.956,
+       "page_to": 311,
+       "page_from": 310,
+       "document_id": 3
+      },
+      {
+       "id": 3774,
+       "cos": 0.4995,
+       "doc": "Parton, Life and Times of Benjamin Franklin, vol. 1 (1864)",
+       "rrf": 0.01639,
+       "bm25": 0,
+       "page_to": 14,
+       "page_from": 14,
+       "document_id": 3
+      },
+      {
+       "id": 1692,
+       "cos": 0,
+       "doc": "Parton, Life and Times of Benjamin Franklin, vol. 2 (1864)",
+       "rrf": 0.01639,
+       "bm25": 11.65,
+       "page_to": 667,
+       "page_from": 667,
+       "document_id": 1
+      },
+      {
+       "id": 49,
+       "cos": 0.4953,
+       "doc": "Parton, Life and Times of Benjamin Franklin, vol. 2 (1864)",
+       "rrf": 0.01613,
+       "bm25": 0,
+       "page_to": 21,
+       "page_from": 19,
+       "document_id": 1
+      },
+      {
+       "id": 585,
+       "cos": 0,
+       "doc": "Parton, Life and Times of Benjamin Franklin, vol. 2 (1864)",
+       "rrf": 0.01613,
+       "bm25": 11.6,
+       "page_to": 234,
+       "page_from": 233,
+       "document_id": 1
+      },
+      {
+       "id": 2124,
+       "cos": 0.4842,
+       "doc": "Parton, Life and Times of Benjamin Franklin, vol. 2 (1864)",
+       "rrf": 0.01587,
+       "bm25": 0,
+       "page_to": 836,
+       "page_from": 836,
+       "document_id": 1
+      },
+      {
+       "id": 4735,
+       "cos": 0,
+       "doc": "Parton, Life and Times of Benjamin Franklin, vol. 1 (1864)",
+       "rrf": 0.01587,
+       "bm25": 11.518,
+       "page_to": 390,
+       "page_from": 390,
+       "document_id": 3
+      }
+     ]
+    },
+    "created_at": "2026-11-18T21:45:50.996Z"
+   },
+   {
+    "id": 50,
+    "run_id": 3,
+    "step": "answer",
+    "qn": 0,
+    "question": "Which actor played Benjamin Franklin in the 2024 television series Franklin?",
+    "data": {
+     "usd": 0.00465,
+     "kept": [],
+     "model": "gpt-4.1",
+     "usage": {
+      "total_tokens": 2294,
+      "prompt_tokens": 2283,
+      "completion_tokens": 11,
+      "prompt_tokens_details": {
+       "audio_tokens": 0,
+       "cached_tokens": 0
+      },
+      "completion_tokens_details": {
+       "audio_tokens": 0,
+       "reasoning_tokens": 0,
+       "accepted_prediction_tokens": 0,
+       "rejected_prediction_tokens": 0
+      }
+     },
+     "prompt": {
+      "user": "Question: Which actor played Benjamin Franklin in the 2024 television series Franklin?\n\nSource snippets:\n\n[C5665] (Fisher, The True Benjamin Franklin (1899), p. 8-9)\nf FRANKLIN was a rather large man, and is supposed to have been about five feet ten inches in height In his youth he was stout, and in old age corpulent and heavy, with rounded shoulders. The portraits of him reveal a very vigorous-looking man, with a thick upper arm and a figure which, even in old age, was full and rounded. In fact, this rounded con tour is his most striking characteristic, as the angular outline is the characteristic of Lincoln. Franklin's figure was a series of harmonious curves, which make pictures of him always pleasing. These curves ex tended over his head and even to the lines of his face, softening the expression, slightly veiling the iron resolution, and entirely consistent with the wide sympathies, varied powers, infinite shrewdness, and vast experience which we know he ppssessed. | ,\n\nIn his earliest portrait as a, yoteifi 'vf , twenty; he looks as if his bones were, large -fi but 'irv .later, por\u00bb, traits this largeness of bone which lie 'alight Have had from his Massachusetts origin is not so evident\n\n2 17\n\nTHE TRUE BENJAMIN FRANKLIN\n\n[C4523] (Parton, Life and Times of Benjamin Franklin, vol. 1 (1864), p. 310-311)\nThe peace of Aix-la-Chapelle, signed by the British Commission- ers, October 7th, 1748, put an end to the apprehensions of the colo- nies. The part played by Franklin during the period of alarm, enhanced his influence in Pennsylvania, brought him into confiden- tial relations with the Governor, the Council, and the circle of lead- ing men ; and accustomed the people of Philadelphia to regard him as their leader and refuge in time of trouble.\n\nInteresting events, meanwhile, had occurred in the home of Frank- lin, and in households connected with his. In 1744, he was made happy by the birth of another child, a daughter, who was named Sarali. About this time, he took as an apprentice, Benjamin Mc- com, a son of his sister Jane, and placed him in New York with Mr. James Parker, a partner of his own. His son William was then a stout, handsome boy, not very studious or tractable. He ran away early in the war, and enlisted on board a privateer in the\n\n270 LIFE AND TIMES OF BENJAMIN FRANKLIN. [1747.\n\n[C3774] (Parton, Life and Times of Benjamin Franklin, vol. 1 (1864), p. 14)\nOur Benjamin Franklin, himself a youngest son, was descended from a line of four youngest sons, respecting each of whom we have a little trustworthy information, derived principally from a letter written, in his old age, by Josiah Franklin to his son Benja- min, and partly from Benjamin's autobiography and letters. All of them were blacksmiths, except his father, Josiah, who learned the trade of a dyer. We have one glimpse of an ancient Franklin, the great-great-great-graudfather of Benjamin, who wielded the sledge- hammer in the reign of Henry VIII., when Lawrence Washington was Mayor of Northampton. This ancient personage, when he was a well- grown lad, left his father's house at Ecton, and, according to a custom of that age, went forth to seek his fortune, i. e., to learn a trade. He stopped first at the house of \" a tailor,\" with whom he engaged to stay \" upon liking.\" But this tailor, wrote Josiah Franklin, \" kept such a stingy house that the boy left him and traveled farther.'' Next, he came to the house of a smith ; \" and coming on a fasting day, being in popish times, he did not like it there the first day ; the next morning, the servant was called up at five, but after a little time came a good toast and good beer, and he found good house-\n\n[C1692] (Parton, Life and Times of Benjamin Franklin, vol. 2 (1864), p. 667)\nI have indeed now and then a little compunction in reflecting that I spend time so idly ; but another reflection comes to relieve me, whispering, ' 11)11 knotc that the soitl is immortal / xohy then should you be such a niggard of a little time, when you have a whole eternity before you r So, being easily convinced, and, like other reasonable crea- tures, satisfied with a small reason when it is in favor of doing what I have a mind to, I shuffle the cards again, and begin another game.\n\n\"As to public amusements, we have neither plays nor operas, but we had yesterday a kind of oratorio, and we have assemblies, balls, and concerts, besides little parties at one another's houses, in which there is sometimes dancing, and frequently good music ; so that we jog on in life as pleasantly as you do in England ; anywhere but in London, for there you have plays performed by good actors. That, however, is, 1 think, the only advantage London has over Phila- delphia.\n\n[C49] (Parton, Life and Times of Benjamin Franklin, vol. 2 (1864), p. 19-21)\nFranklin, we know, was convincctl that the ministrj', in one year more, intist have yielded or resigned, if the colonists consumed no British goods, and performed no political act; since the sudden and total loss of the trade with America would have quickly brought the a<-tive ca])italists of England, Ireland, and Scotland, to b;uikru])tcy, and a million laborers to beggary.\n\nAnother remarkable person i)rcsented himself, iu 1774, to the notice of Dr. Franklin \u2014 Thomas Paine, then among the obscurest of the obscure, destined to sudden and long celebrity. Paine had reached the age of thirty-seven, and was still a homeless wanderer. He had been a staymaker in a \"country town, like his father before\n\n20 LIFE AND TIMES OF BENJAMIN FRANKLIN. |l'i'V4.\n\n[C585] (Parton, Life and Times of Benjamin Franklin, vol. 2 (1864), p. 233-234)\ns' journey has done more harm than good : he is known by many jieople, aud he has made himself known to the whole town liy having his comedies ])layed, and by hearing the actors repeat their jjarts, so as to play them better. All this has rendered his caution of concealing himself under the name of Durand perfectly useless.\" The man must have felt him- self strong at court to dare to act in a manner so ridiculous.\n\nNevertheless, the work proceeded with creditable expedition. His own account of his exploits this year wears the air of exaggera- tion, but it is in reality not far from the truth.\n\n[C2124] (Parton, Life and Times of Benjamin Franklin, vol. 2 (1864), p. 836)\n2SS; Franklin and the kite, 2Si) ; Fnuiklin elexarifles the rail- ings, 297; Franklin an<l his pigeons, 3i>5; Franklin asd the hospitil, 309 ; liis advice to Tennent how to raise money, 310; he writes on a field with plaster of Paris, 313; senils grape-vines to Quincy.\n\n313; Deist and Atheist, 820; the fugitive mayor-elect, 326; the In- dians and the rum, 329; Franklin and the dancing school, 33;j ; the new-fashioned cap and the worsted mittens, 3;U; the governor blacking the Quakers, 346; Franklin in chase of a whirlwind, 34S; Franklin and the lirad- dock fire-works.\n\n[C4735] (Parton, Life and Times of Benjamin Franklin, vol. 1 (1864), p. 390)\n, of Prussia, performed that startling series of exploits which caused him to be called \" the Great :\" in this war that young Colonel Washington first heard the whistling of hostile bullets, which he said was music in his ears : in this war that William Pitt doubled the consequence, and trebled the arrogance of England by winning Canada and Iudia, after a series of intoxicating victories by sea and land.\n\nAssuming that the reader is familiar with the important events of this war, we have only to relate the useful and not unimportant part played in it by the unwarlike Franklin.\n\nIn June, 1754, we find him at the old Dutch town of Albany, in tin- province of New York, a conspicuous figure in a scene that was animated and picturesque. Twenty-five of the leading men of\n\nAGEJJ 4S.] THE SEVEN YEARS' WAR. 331?",
+      "system": "You answer one question about Benjamin Franklin using ONLY the source snippets the user gives you. Each snippet starts with its ID, like [C123].\n\nRules:\n- Use only what the snippets say. Add nothing you know from anywhere else: no dates, places, names, numbers, reasons or background, even if you are sure it is true and even if a snippet seems to leave it out.\n- Biographies mention many people. Only use a snippet for what it says about Benjamin Franklin. Check who each sentence in the snippet is about: parents, uncles, children and namesakes often share a name (a \"Benjamin\" in a family history may be an uncle). If a snippet is about someone else, don't move it onto Benjamin Franklin.\n- Don't combine facts into something no snippet says: no new totals (\"three children\") or summaries unless a snippet states them.\n- Every sentence lists the IDs of the snippets that state it (chunk_ids: the numbers only, e.g. 123).\n- If the snippets do not answer the question, set \"found\" to false and \"sentences\" to []. Don't guess, and don't answer a different question instead.\n- A partial answer is fine: say only the part the snippets support.\n- Write 2 to 5 plain sentences. You may quote short phrases from the snippets. If snippets disagree, say so and cite both."
+     },
+     "dropped": [],
+     "verdict": "not in the sources",
+     "response": "{\"found\": false, \"sentences\": []}"
+    },
+    "created_at": "2026-11-18T21:45:51.843Z"
+   }
+  ]
+ }
+}
