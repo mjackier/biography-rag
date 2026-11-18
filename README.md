@@ -5,7 +5,7 @@ and stores them, asks 20 questions against the store, and weaves a life story **
 retrieved snippets**. Every sentence carries the chunk IDs it came from, and a checker flags any
 sentence the cited chunks don't support.
 
-Live: https://biography-rag.onrender.com · Write-up: [WRITEUP.md](WRITEUP.md)
+Live: https://biography-rag-1kep.onrender.com · Write-up: [WRITEUP.md](WRITEUP.md)
 
 ## How it works
 
