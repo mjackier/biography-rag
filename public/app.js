@@ -146,7 +146,7 @@ async function collectionPage(id) {
         <input type="file" id="files" multiple accept=".txt,.md,.markdown,.html,.htm,.pdf,text/plain,text/html,application/pdf" hidden />
       </div>
       <h3>…or add links</h3>
-      <p class="muted small" style="margin-top:-4px">One per line: web pages or plain-text books (for example Project Gutenberg's "Plain Text UTF-8" link).</p>
+      <p class="muted small" style="margin-top:-4px">One per line: web pages or plain-text books (Project Gutenberg's "Plain Text UTF-8" link, or an archive.org "FULL TEXT" file). Optional title first: <code>Title | https://…</code></p>
       <textarea id="urls" placeholder="https://www.gutenberg.org/cache/epub/20203/pg20203.txt"></textarea>
       <div class="row" style="margin-top:8px"><button class="primary" id="addUrls">Add links</button></div>
       <div id="addLog" class="small" aria-live="polite"></div>
@@ -157,7 +157,7 @@ async function collectionPage(id) {
             .map(
               (d) => `<tr><td>${esc(d.name)}<br /><span class="muted small">${d.kind}${d.source && /^https?:/.test(d.source) ? ` · <a href="${esc(d.source)}" target="_blank" rel="noopener">source</a>` : ""} · ${d.chars.toLocaleString()} characters</span></td>
               <td class="num">${d.pages}</td><td class="num">${d.chunks}</td><td class="num hide-sm" title="index or contents pages left out">${d.skipped}</td>
-              <td><button class="link" data-del="${d.id}">Remove</button></td></tr>`
+              <td><button class="link" data-ren="${d.id}" data-name="${esc(d.name)}">Rename</button> · <button class="link" data-del="${d.id}">Remove</button></td></tr>`
             )
             .join("")}
           </tbody></table></div>
@@ -205,14 +205,29 @@ async function collectionPage(id) {
   });
   pick.addEventListener("change", () => addFiles(id, [...pick.files]));
   $("#addUrls").addEventListener("click", () => {
-    const urls = $("#urls").value.split(/\s+/).filter((u) => /^https?:\/\//i.test(u));
-    if (!urls.length) return ($("#addLog").innerHTML = '<p class="error">Paste at least one http(s) link.</p>');
-    addItems(id, urls.map((u) => ({ label: u, body: async () => ({ url: u }) })));
+    // One per line: "https://..." or "Title | https://..."
+    const lines = $("#urls").value.split("\n").map((l) => l.trim()).filter(Boolean);
+    const items = lines
+      .map((l) => {
+        const m = l.match(/^(?:(.*?)\s*\|\s*)?(https?:\/\/\S+)$/i);
+        return m && { label: m[1] || m[2], body: async () => ({ url: m[2], ...(m[1] ? { title: m[1] } : {}) }) };
+      })
+      .filter(Boolean);
+    if (!items.length) return ($("#addLog").innerHTML = '<p class="error">Paste at least one http(s) link.</p>');
+    addItems(id, items);
   });
   view.querySelectorAll("[data-del]").forEach((b) =>
     b.addEventListener("click", async () => {
       if (!confirm("Remove this document and its chunks?")) return;
       await api("DELETE", `/api/collections/${id}/documents/${b.dataset.del}`);
+      route();
+    })
+  );
+  view.querySelectorAll("[data-ren]").forEach((b) =>
+    b.addEventListener("click", async () => {
+      const name = prompt("Name for this document (shown with every citation):", b.dataset.name);
+      if (!name) return;
+      await api("PATCH", `/api/collections/${id}/documents/${b.dataset.ren}`, { name });
       route();
     })
   );

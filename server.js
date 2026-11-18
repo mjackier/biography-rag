@@ -106,7 +106,12 @@ async function fetchUrl(raw) {
     const addrs = await dns.lookup(url.hostname, { all: true }).catch(() => []);
     if (!addrs.length) throw new HttpError(400, `Couldn't find ${url.hostname}.`);
     if (addrs.some((a) => privateAddress(a.address))) throw new HttpError(400, "That address isn't on the public internet.");
-    const res = await fetch(url, { redirect: "manual", signal: AbortSignal.timeout(30000), headers: { "User-Agent": "biography-rag (student project)" } });
+    let res;
+    try {
+      res = await fetch(url, { redirect: "manual", signal: AbortSignal.timeout(150000), headers: { "User-Agent": "biography-rag (student project)" } });
+    } catch (err) {
+      throw new HttpError(502, `Couldn't download ${url.hostname}: ${err.cause?.code || err.cause?.message || err.message}. Try again in a minute.`);
+    }
     if (res.status >= 300 && res.status < 400 && res.headers.get("location")) {
       url = new URL(res.headers.get("location"), url);
       continue;
@@ -136,7 +141,7 @@ app.post("/api/collections/:id/documents", requireCode, async (req, res) => {
     const isHtml = /\.html?$/i.test(body.name || "") || /^\s*<(!doctype|html)/i.test(body.text);
     doc = { text: isHtml ? htmlToText(body.text) : body.text, kind: isHtml ? "html" : "text", name: body.name, source: body.name };
   } else throw new HttpError(400, "Send a file or a link.");
-  const name = String(body.name || doc.name || "Untitled").slice(0, 200);
+  const name = String(body.title || body.name || doc.name || "Untitled").slice(0, 200);
   const { pageCount, chars, chunks, skipped } = chunkDocument(doc);
   if (!chunks.length) throw new HttpError(400, `No readable text found in "${name}".`);
   const existing = (await store.listDocuments(c.id)).reduce((s, d) => s + d.chunks, 0);
@@ -149,6 +154,15 @@ app.post("/api/collections/:id/documents", requireCode, async (req, res) => {
   invalidate(c.id);
   logger.info("document added", { collection: c.id, doc: d.id, pages: pageCount, chunks: chunks.length, skipped, ms: Date.now() - t0, usd: meter.usd });
   res.json(d);
+});
+
+app.patch("/api/collections/:id/documents/:docId", requireCode, async (req, res) => {
+  const c = await loadCollection(req);
+  const name = String((await jsonBody(req)).name || "").trim().slice(0, 200);
+  if (!name) throw new HttpError(400, "Type a name.");
+  await store.renameDocument(c.id, Number(req.params.docId), name);
+  invalidate(c.id);
+  res.json({ ok: true });
 });
 
 app.delete("/api/collections/:id/documents/:docId", requireCode, async (req, res) => {
