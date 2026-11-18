@@ -1,0 +1,16 @@
+{
+  "name": "biography-rag",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Upload pages about one person, ask 20 questions, and weave a story only from the retrieved snippets, with every sentence cited.",
+  "type": "module",
+  "main": "server.js",
+  "engines": { "node": ">=20" },
+  "scripts": {
+    "start": "node server.js",
+    "check-secrets": "sh scripts/check-secrets.sh"
+  },
+  "dependencies": {
+    "pg": "^8.13.1"
+  }
+}
